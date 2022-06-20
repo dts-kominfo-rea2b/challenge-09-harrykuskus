@@ -1,0 +1,41 @@
+div.card {
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  margin: 5px auto;
+  width: 300px;
+  padding: 10px;
+  border-left: 5px solid #999;
+}
+
+img.photo {
+  width: auto;
+  height: 100px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding: 20px;
+  line-height: 20px;
+}
+
+li.name {
+  font: 30px VT323;
+  letter-spacing: 5px;
+}
+li.phone {
+  font: 15px Overpass Mono;
+  color: #999;
+}
+
+li.email {
+  font: 15px Overpass Mono;
+  color: #999;
+}
