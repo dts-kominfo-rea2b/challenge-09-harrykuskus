@@ -9,9 +9,15 @@ const Contact = () => {
     <div className="card">
       <img className="photo" src={contact.photo} alt="" />
       <ul>
-        <li className="name">{contact.name}</li>
-        <li className="phone">{contact.phone}</li>
-        <li className="email">{contact.email}</li>
+        <li className="name" key={index}>
+          {contact.name}
+        </li>
+        <li className="phone" key={index}>
+          {contact.phone}
+        </li>
+        <li className="email" key={index}>
+          {contact.email}
+        </li>
       </ul>
     </div>
   ));
