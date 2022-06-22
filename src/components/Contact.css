@@ -3,10 +3,10 @@ div.card {
   color: white;
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-content: center;
+  justify-content: baseline;
+  align-content: baseline;
   margin: 5px auto;
-  width: 300px;
+  width: 290px;
   padding: 10px;
   border-left: 5px solid #999;
 }
